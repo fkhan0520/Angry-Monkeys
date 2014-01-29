@@ -37,5 +37,7 @@ d) In the other terminal, run the main executable:
 Gameplay:
 
 Z - Fire
+
 X/C - Aim
+
 V - Toggle shot power
