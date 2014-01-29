@@ -1,11 +1,3 @@
-/**********************************
- * Author: Seungcheol Baek
- * Institution: Georgia Tech
- *
- * Title: MAIN
- * Class: ECE2035
- * Assignment: Project 2
- **********************************/
 
 //includes
 #include <string.h>
@@ -157,15 +149,12 @@ int main() {
         printf("Angry Monkeys\n");
         printf("Push the buttons.\n");
         printf("Z - fire cannon\nX - decrease angle    C - increase angle\nV - toggle power\nR - reset    Q - quit\n");
- 
-        /****   BEGIN - your code goes here for project 2  ****/
     
         int i, num_cannon=10;
 	    char pb;
         
         //get pb
         while(1){
-            // it's basically impossible to get a keyboard to function in the same way as mbed pushbuttons so...
             // the get_pb_zxcvqr() function returns the character of the next keyboard button pressed
             pb=get_pb_zxcvqr();
             // and then based on that character, you can do something useful!
@@ -218,11 +207,8 @@ int main() {
             }
             paaUpdate(power, angle);
         }
-    
         
-        //have fun... 
-        
-        /****    END - your code stops here   ****/
+
         free(world);  
         close(socket_fd);
     }
