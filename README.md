@@ -29,7 +29,7 @@ You do not need to worry about this message:
 
 a) be sure that the C executable (main) is in the same directory as P2_main.py
 
-b) Open two terminal sessions and change to the directorty that contains
+b) Open two terminal sessions and change to the directory that contains
    the executable and P2_main.py in each terminal.
    
 c) In one terminal, run
